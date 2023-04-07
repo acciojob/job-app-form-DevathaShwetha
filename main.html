@@ -3,17 +3,17 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-		<form method="get">
+    <!--script type="text/javascript" src="./script.js"-->
+	<form method="get">
 			<table>
 			<tr>
 			<td><label for="name"> Name: </label></td>
-			<td><input type = "text" name="name" id="Name"></td>
+			<td><input type = "text" name="name" id="Name"><br>
+            <br></td>
 			</tr>
 			<tr>
                 <td><label for="email">Email: </label></td>
@@ -22,10 +22,11 @@
 			</tr>
 			<tr>
                 <td><label for="gender">Gender: </label>
-                    <td><input type ="radio" name ="gender" id="gender" value="female"> Female</td>
-                        <td><input type="radio" name="gender" id="gender" value="male"> Male</td>
-            <td><input type="radio" name="gender" id="gender" value="others" >Others
-                </td>
+                    <td><input type ="radio" name ="gender" id="gender" value="female"> Female
+                        <input type="radio" name="gender" id="gender" value="male"> Male
+            <input type="radio" name="gender" id="gender" value="others" >Others
+                <br>
+            <br></td>
         </tr>
 			<tr>
 			<label for="laptop">Laptop Brands:</label>
@@ -34,7 +35,9 @@
       <option value="Asus">Asus</option>
       <option value="HP">HP</option>
     </select>
-			</tr>
+			<br>
+        <br>
+</tr>
 			<tr><td><label for="age">Age: </label></td>
                 <td><input type ="number" name ="age" id="age"><br>
                     <br></td>
@@ -44,11 +47,11 @@
                 <br></td>
         </tr>
 			<tr><td><label for="password">Password: </label></td>
-                <td><input type ="password" name ="password" id="password"></td>
+                <td><input type ="password" name ="password" id="password"><br><br></td>
         </tr>
 			<tr> <td><button type="submit">Submit</button></td></tr>
 
-			</form>
+	</form>
 </script>
 
 </body>

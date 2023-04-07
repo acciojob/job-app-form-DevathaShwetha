@@ -9,6 +9,46 @@
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
+		<form method="get">
+			<table>
+			<tr>
+			<td><label for="name"> Name: </label></td>
+			<td><input type = "text" name="name" id="Name"></td>
+			</tr>
+			<tr>
+                <td><label for="email">Email: </label></td>
+                    <td><input type ="text" name ="email" id="email"><br>
+                        <br></td>
+			</tr>
+			<tr>
+                <td><label for="gender">Gender: </label>
+                    <td><input type ="radio" name ="gender" id="gender" value="female"> Female</td>
+                        <td><input type="radio" name="gender" id="gender" value="male"> Male</td>
+            <td><input type="radio" name="gender" id="gender" value="others" >Others
+                </td>
+        </tr>
+			<tr>
+			<label for="laptop">Laptop Brands:</label>
+    <select name="laptop" id="laptop">
+      <option value="Apple">Apple</option>
+      <option value="Asus">Asus</option>
+      <option value="HP">HP</option>
+    </select>
+			</tr>
+			<tr><td><label for="age">Age: </label></td>
+                <td><input type ="number" name ="age" id="age"><br>
+                    <br></td>
+            </tr>
+			<tr><td><label for="dob">DOB: </label></td>
+            <td><input type ="date" name ="dob" id="dob"><br>
+                <br></td>
+        </tr>
+			<tr><td><label for="password">Password: </label></td>
+                <td><input type ="password" name ="password" id="password"></td>
+        </tr>
+			<tr> <td><button type="submit">Submit</button></td></tr>
+
+			</form>
 </script>
 
 </body>
